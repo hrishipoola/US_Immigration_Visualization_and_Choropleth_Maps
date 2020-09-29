@@ -1,1 +1,12 @@
-# US_Immigration_Visualization_and_Choropleth_Maps
+U.S. Immigration Visualizations & Choropleth Maps
+
+Here, we'll create cool FiveThirtyEight-style subplots using matplotlib and an interactive choropleth map using folium. To do that, we'll work with official UN data on immigration to the United States from 1980 to 2013. If you'd like to explore other countries, you can find the original source data on immigration from around to the world into 45 countries here (https://www.un.org/en/development/desa/population/migration/data/empirical2/migrationflows.asp). Let's break it down:
+
+Part 1: Cleaning and wrangling, including modifying our columns, setting and resetting our index, adjusting data types using pd.to_numeric, coerce, fillna, and astype, creating a new 'Total' column using sum() and axis
+Part 2: Area plot of immigration for Top 7 countries (using sort values) - Mexico, Philippines, China, India, Vietnam, Dominican Republic, and South Korea
+Part 3: Box and line subplots of immigration for Meixco, China, and India
+Part 4: Box and line subplots of immigration for Philippines, China, India, Vietnam, and South Korea
+Part 5: Choropleth map using folium and geojson file
+
+Let's dig in.
+
